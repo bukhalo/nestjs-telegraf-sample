@@ -24,7 +24,7 @@
     "@nestjs/config": "0.0.9",
     "@nestjs/core": "^6.7.2",
     "@nestjs/platform-express": "^6.7.2",
-    "nestjs-telegraf": "^0.7.0",
+    "nestjs-telegraf": "^0.7.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3",

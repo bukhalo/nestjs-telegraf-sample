@@ -34,4 +34,9 @@ export class BotService {
 	protected async debugLogs(ctx: ContextMessageUpdate) {
 		console.log('1');
 	}
+
+	@TelegramActionHandler({ message: ''})
+	async reply(ctx: ContextMessageUpdate) {
+		await ctx.reply(`You say ${ctx.message.text}`)
+	}
 }
